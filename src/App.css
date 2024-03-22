@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .field-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .field-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .selected-fields {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .selected-field {
+    margin-right: 5px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .selected-field button {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #888;
+  }
+  
